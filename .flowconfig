@@ -1,0 +1,29 @@
+[ignore]
+./lib/
+./node_modules/
+[include]
+./src/
+[libs]
+flow-typed
+[lints]
+
+[options]
+
+# beautify output a little
+emoji=true
+
+# don't allow to override function params
+experimental.const_params=true
+
+# show warnings
+include_warnings=true
+
+# all underscored in front (_varname) vars in classes will be treated as private
+# don't work:(
+munge_underscores=true
+
+
+module.file_ext=.mjs
+module.file_ext=.js
+module.file_ext=.json
+[strict]
